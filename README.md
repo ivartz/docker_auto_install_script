@@ -10,7 +10,10 @@ sudo bash install.sh
 ## System Requirements:
 
 Distributor ID: Ubuntu
+
 Description:    Ubuntu 16.04.5 LTS
+
 Release:        16.04
+
 Codename:       xenial
 
