@@ -2,7 +2,7 @@
 
 Bash script that automatically installs Docker Community Edition (CE).
 
-## How to install:
+## How to auto install latest version of Docker CE:
 ```bash
 sudo bash install.sh
 ```
