@@ -24,7 +24,8 @@ echo "Create a group called docker"
 sudo groupadd docker
 
 echo "Add current (non-root) user to the group docker"
-sudo usermod -aG docker $USER
+MY_USER=$USER
+sudo usermod -aG docker $MY_USER
 
 # a log out and log in is at the current statium necessary to re-evaluate user memberships (which is necessary to do to get Docker working without sudo).
 # Since you don't want to do this, a workaround is (https://superuser.com/questions/272061/reload-a-linux-users-group-assignments-without-logging-out)
